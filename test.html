@@ -10,7 +10,7 @@
         <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">AnasGh</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,13 +25,13 @@
           <a class="nav-link" href="#about-section">About</a>
         </li>
       <li class="nav-item">
-          <a class="nav-link" href="#experence-section">experence</a>
+          <a class="nav-link" href="#exper">experence</a>
         </li>
          <li class="nav-item">
           <a class="nav-link" href="#skill-section">Skill</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#project-section">Project</a>
+          <a class="nav-link" href="#project">Project</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#references-section">References</a>
@@ -45,7 +45,7 @@
 <div class="hero" id="hero-section">
     <div class="herotext">
         <h1>anas ghawanmeh</h1>
-        <p>full stack developer</p>
+        <p>CIS Student <br>&full stack developer</p>
         <a href="https://github.com/"  class="herobutton">link of gihub</a>
     </div>
     <div  class="heroimage">
@@ -57,31 +57,42 @@
 <div class="about" id="about-section">
     <div>
         <h1>About me</h1>
+        <br>
         <p>Hello, I'm Anas Ghawanmeh, a Computer Information Systems student at Al al-Bayt University. I am passionate about programming and web development, with hands-on experience in building clean, responsive web pages using HTML, CSS, and Bootstrap. I am always eager to learn new technologies, sharpen my coding skills, and create impactful digital experiences.</p>
     </div>
     <div>
         <img src="about.jpg" alt="about">
     </div>
 </div>
+<div class="experienceH" id="exper">
+<h1>experience</h1>
+<div class="experience-container">
+    
+    <!-- الكارت الأول -->
+    <div class="card">
+        <div class="card-icon">💻</div>
+        <p>Strong practical foundation in HTML5, CSS3, and Bootstrap.</p>
+    </div>
 
+    <!-- الكارت الثاني -->
+    <div class="card">
+        <div class="card-icon">✨</div>
+        <p>Building modern, responsive, and user-friendly web pages.</p>
+    </div>
 
-<div class="experence" id="experence-section">
+    <!-- الكارت الثالث -->
+    <div class="card">
+        <div class="card-icon">📱</div>
+        <p>Crafting fluid layouts for all devices using CSS Flexbox.</p>
+    </div>
 
-
-<div>
-    <h1>experence</h1>
-    <ul class="uno">
-        <li>Developed a strong foundation in HTML5, CSS3, and Bootstrap through hands-on practice.</li>
-        <li>Practiced building modern, responsive, and user-friendly web pages.</li>
-        <li>Applied web development concepts and structured layouts via personal and academic projects.</li>
-        <li>Improved problem-solving abilities, teamwork, and technical communication skills.</li>
-    </ul>
+    <!-- الكارت الرابع -->
+    <div class="card">
+        <div class="card-icon">🛠️</div>
+        <p>Utilized Git and GitHub for version control, code management, and publishing web projects effectively.</p>
+    </div>
 </div>
-<div>
-<img src="images (2).jpg" alt="exper">
 </div>
-</div>
-
 <div  class="skill" id="skill-section">
 
 <div class="">
@@ -146,52 +157,50 @@
 </div>
 
 
-<div class="project" id="project-section">
-<div>
-   <h1>My Project</h1>
-   </div>
-   <div>
-   <p>
-    <span><strong>tep-click</strong></span>
- is a smart and user-friendly medical booking and consultation platform designed to bridge the gap between patients and healthcare providers. The application streamlines the process of finding specialized doctors, booking clinic appointments, and consulting with medical professionals online, ensuring accessible and efficient healthcare services.
-   </p>
-</div>
-
-<div>
-    <img src="tep.jpeg" alt="tep-click">
-</div>
-
-</div>
-
-
-
-
-<div class="references" id="references-section">
-        <div>
-        <h1>References</h1>
-        </div>
-
-        <div>
+<div class="project-section" id="project">
+    <div class="project-card">
+        <h2>My Project</h2>
         <p>
+            <span class="project-title">tep-click</span> is a smart and user-friendly medical booking and consultation platform designed to bridge the gap between patients and healthcare providers. The application streamlines the process of finding specialized doctors, booking clinic appointments, and consulting with medical professionals online, ensuring accessible and efficient healthcare services.
         </p>
-        <p><strong>Anfal Dherat :</strong><br><br>
-        <a href="gt.anfal.daharat@orange.com">email</a></p>
-        <br>
-        <br>
-        <a href="https://www.linkedin.com/in/anfal-dherat/">linked in</a>
+        <div class="project-image-container">
+            <img src="tep.jpeg" alt="tep-click">
         </div>
-         
-        <div>
-        <p> <strong> Batool Al-Dalki :</strong><br><br>
-             <a href="gt.batool.aldalki@orange.com">Email</a> </p>
-<br>
-<br>
-<a href="https://www.linkedin.com/in/batool-walid-b33894228?utm_source=share_via&utm_content=profile&utm_medium=member_ios">linked in</a>
-
-        </div>
+    </div>
 </div>
 
 
+
+
+<section class="references-section" id="references-section">
+    <div class="references-header">
+        <h2>References</h2>
+    </div>
+    
+    <div class="references">
+        
+        <div class="reference-card">
+            <h3>Anfal Dherat</h3>
+            <p>
+                <a href="mailto:gt.anfal.daharat@orange.com" class="ref-link">Email</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/anfal-dherat/" target="_blank" class="ref-link">LinkedIn</a>
+            </p>
+        </div>
+
+        
+        <div class="reference-card">
+            <h3>Batool Al-Dalki</h3>
+            <p>
+                <a href="mailto:gt.batool.aldalki@orange.com" class="ref-link">Email</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/batool-walid-b33894228?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" class="ref-link">LinkedIn</a>
+            </p>
+        </div>
+    </div>
+</section>
 
 <footer class="footer py-5 mt-5">
     <div class="container">
@@ -205,9 +214,9 @@
             
             <div class="col-md-6 text-center text-md-end">
                 <a href="#about-section" class="footer-link me-3">About</a>
-                <a href="#experence-section" class="footer-link me-3">Experience</a>
+                <a href="#exper" class="footer-link me-3">Experience</a>
                 <a href="#skill-section" class="footer-link me-3">Skills</a>
-                <a href="#project-section" class="footer-link me-3">Projects</a>
+                <a href="#project" class="footer-link me-3">Projects</a>
                 <a href="#references-section" class="footer-link me-3">References</a>
 
 
