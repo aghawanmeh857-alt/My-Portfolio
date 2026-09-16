@@ -11,11 +11,7 @@ body {
 /* navbar */
 .navbar {
     background-color: #636363 !important;
-    position: fixed;
-   top: 0;          
-    left: 0;
-    width: 100%;
-    z-index: 100%;
+    
 }
 .navbar-brand, .nav-link {
     color: #292524 !important;
