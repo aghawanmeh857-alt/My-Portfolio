@@ -326,7 +326,7 @@ box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);}
 }
 
 .ref-link:hover {
-    background-color: #d97706; /* لون مميز عند تمرير الماوس */
+    background-color: #d97706; 
     color: #ffffff;
 }
 /*footer*/
